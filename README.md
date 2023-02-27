@@ -33,4 +33,10 @@ From the LeagueExplorer Object, you have access to three separeate objects that 
  - **Game** gives you access to the LCU methods related to the Current League Match and is only available when the Game is open and a Match is currently in place.
  - **Web** gives you access to the Web Api methods is only available if **WebApiEnable** is set to **true** in the object constructor and an Api Key Is provided.
 
-
+A simple example would be on accepting a match automatically:
+```
+if (league.Client.isMatchFound()) 
+            {
+                league.Client.acceptMatch();
+            }
+```
