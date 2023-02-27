@@ -13,4 +13,4 @@ The base code I started with and the inspiration for the came from <a href="http
   - Easy access to the LCU API to Control and Retrieve information from the League Client.
   - Live data from the current League match.
   - Direct acces to the Web API from a personal and production Key.
-  - Automatic limits and manages the ammount of request per key type.
+  - Automatic limits and manages the ammount of request to the Web Api per key type.
