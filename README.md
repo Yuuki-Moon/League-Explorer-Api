@@ -6,4 +6,4 @@ This library is being developed alongside another project of mine and it's origi
 
 This library aims to interact both with the LCU League Api and the Riot's Web Api endpoints related to League of Legends.
 
-The base code I started with and the inspiration for the came from <a href="https://github.com/Skinz3/League-of-Legends-Bot">Skinz3/League-of-Legends-Bot</a>
+The base code I started with and the inspiration for the came from <a href="https://github.com/Skinz3/League-of-Legends-Bot">Skinz3/League-of-Legends-Bot</a>.
