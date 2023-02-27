@@ -29,8 +29,8 @@ LeagueExplorerApi.LeagueExplorer league = new LeagueExplorerApi.LeagueExplorer(
 There are some parameters that should be passed to the constructor, more information about them and their default values are available in the <a href="https://github.com/Yuuki-Moon/League-Explorer-Api/wiki">Documentation/Wiki</a>.
 
 From the LeagueExplorer Object, you have access to three separeate objects that give you access to diffents areas of the Api's. They are:
- - Client
- - Game
- - Web
+ - **Client** gives you access to the LCU methods related to the League Client and is only available when the Client is open.
+ - **Game** gives you access to the LCU methods related to the Current League Match and is only available when the Game is open and a Match is currently in place.
+ - **Web** gives you access to the Web Api methods is only available if **WebApiEnable** is set to **true** in the object constructor and an Api Key Is provided.
 
 
