@@ -14,3 +14,19 @@ The base code I started with and the inspiration for the came from <a href="http
   - Live data from the current League match.
   - Direct acces to the Web API from a personal and production Key.
   - Automatic limits and manages the ammount of request to the Web Api per key type.
+
+
+## Sample Usage
+The library is used by instantiating the **LeagueExplorer** class from the **LeagueExplorerApi** Namespace:
+```
+LeagueExplorerApi.LeagueExplorer league = new LeagueExplorerApi.LeagueExplorer(
+                    LeagueFolderPath: @"C:\Riot Games\League of Legends\",
+                    WebApiEnable: false,
+                    WebApiKey: "",
+                    WebApiLicence: WebApiLicences.PERSONAL
+                );
+```
+There are some parameters that should be passed to the constructor, more information about them and their default values are available in the <a href="https://github.com/Yuuki-Moon/League-Explorer-Api/wiki">Documentation/Wiki</a>.
+
+
+
